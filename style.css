@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    
+}
+
+header{
+    background-color: white;
+    padding: 20px 0px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-play{
+    border: none;
+    background-color: cadetblue;
+    border-radius: 0px;
+    color: white;
+    
+}
+
+.btn-play:hover{
+    background-color: blue;
+    color: white;
+}
+
+#grid{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    height: 1000px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.square.click{
+    background-color: lightblue;
+}
